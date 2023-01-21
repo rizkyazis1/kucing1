@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        class kucing{
+            constructor(nama, warna, kelamin){
+                this.nama = nama;
+                this.warna = warna;
+                this.kelamin = kelamin;
+            }
+        }
+
+        var kucing1 = new kucing("amung", "putih", "jantan");
+        // kucing1.nama = "phovanic";
+        // kucing1.warna = "biru";
+        // kucing1.kelamin = "jantan";
+        document.write(`namanya = ` + kucing1.nama + "<br />")
+        document.write(`warnanya = ` + kucing1.warna + "<br />")
+        document.write(`kelaminnya = ` + kucing1.kelamin + "<br />")
+        document.write("<hr />");
+
+
+        var kucing2 = new kucing("cherry", "putih", "betina");
+        // kucing2.nama = "phovanic";
+        // kucing2.warna = "biru";
+        // kucing2.kelamin = "jantan";
+        document.write(`namanya = ` + kucing2.nama + "<br />")
+        document.write(`warnanya = ` + kucing2.warna + "<br />")
+        document.write(`kelaminnya = ` + kucing2.kelamin + "<br />")
+        document.write("<hr />");
+
+
+        // kucing.forEach(kucing => {
+        //     document.write("nama : " + kucing.nama + "<br />");
+        //     document.write("warna : " + kucing.warna + "<br />");
+        //     document.write("kelamin : " + kucing.kelamin + "<br />");
+        // });
+            
+    </script>
+</body>
+</html>
